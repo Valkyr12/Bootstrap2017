@@ -20,11 +20,13 @@
     <![endif]-->
   </head>
   <body>
-        <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-      <div class="container">
-      <div class="row">
-        <div class="navbar-header">
+
+<!-- Static navbar -->
+<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="row">
+    <div class="logo"></div>
+      <div class="navbar-header">
         <a class="navbar-brand" href="#">ТОГБУЗ «Городская Клиническая Больница №4 г. Тамбова»</a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Включить навигацию</span>
@@ -38,40 +40,33 @@
             <li class="active"><a href="#">Главная страница</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Об учреждении <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu triangle" role="menu">
                 <li><a href="#">Страница главного врача</a></li>
                 <li><a href="#">Страница заместителей главного врача</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Учредительные документы</a></li>
                 <li><a href="#">Вакансии учреждения</a></li>
                 <li><a href="#">Отзывы пациентов</a></li>
                 <li><a href="#">Врачебная комиссия</a></li>
-                <li><a href="#">Фотоальбом учреждения</a></li>
                 <li><a href="#">Кадры</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Нормативно-правовые акты <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Фотоальбом учреждения</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Документы</li>
+                <li><a href="#">Учредительные документы</a></li>
                 <li><a href="#">Федеральные акты</a></li>
                 <li><a href="#">Областные акты</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Стандарты оказания медицинской помощи</a></li>
-                <li><a href="#">Порядок оказания медицинской помощи</a></li>
-                <li><a href="#">Государственные услуги</a></li>
                 <li><a href="#">Приказы</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Информация для пациентов <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu triangle" role="menu">
                 <li><a href="#">Программа государственных гарантий и государственное задание</a></li>
                 <li><a href="#">Лекарственное обеспечение</a></li>
                 <li><a href="#">Диспансеризация населения</a></li>
                 <li><a href="#">Правила госпитализации</a></li>
                 <li><a href="#">Политика обработки персональных данных</a></li>
+                <li><a href="#">Стандарты оказания медицинской помощи</a></li>
+                <li><a href="#">Порядок оказания медицинской помощи</a></li>
+                <li><a href="#">Государственные услуги</a></li>
                 <li class="divider"></li>
                 <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Платные медицински услуги</a></li>
@@ -82,26 +77,25 @@
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Контактная информация <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu triangle" role="menu">
                 <li><a href="#">Контролирующие организации</a></li>
                 <li><a href="#">Банковские реквизиты</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
+                <li class="dropdown-header">Для связи</li>
                 <li><a href="#">Обратная связь</a></li>
                 <li><a href="#">Телефонный справочник</a></li>
                 <li><a href="#">Схема проезда</a></li>
               </ul>
             </li>
           </ul>
-        </div><!--/.nav-collapse -->
-        </div>
-      </div>
+      </div><!--/.nav-collapse -->
     </div>
+  </div>
+</div>
 
-<!-- Carousel
-    ================================================== -->
-  <div class="container">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Carousel -->
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -159,149 +153,234 @@
       </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-    </div>
-
-
-<div class="container col-sm-8 col-sm-offset-2">
-<div class="row">
-  <h2 class="text-center">Время работы:</h2>
-  <h3 class="text-center">Будние дни</h3>
-  <table class="table table-hover text-left">
-    <tbody>
-      <tr class="success">
-        <td>Регистратура</td>
-        <td><strong>7:30 - 20:00</strong></td>
-      </tr>
-      <tr class="success">
-        <td>Клинико-диагностическая лаборатория</td>
-        <td><strong>8:00 - 16:30</strong></td>
-      </tr>
-      <tr class="success">
-        <td>Прием врачей-специалистов</td>
-        <td><strong>8:00 - 20:00</strong></td>
-      </tr>
-      <tr class="success">
-        <td>Вызовы врача на дом</td>
-        <td><strong>8:00 - 19:00</strong></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 class="text-center">Суббота</h3>
-  <table class="table table-hover text-left">
-    <tbody>
-      <tr class="warning">
-        <td>Все подразделения поликлиники по графику</td>
-        <td><strong>9:00 - 18:00</strong></td>
-      </tr>
-      <tr class="warning">
-        <td>Прием врачей-специалистов</td>
-        <td><strong>9:00 - 15:00</strong></td>
-      </tr>
-      <tr class="warning">
-        <td>Вызовы врача на дом</td>
-        <td><strong>9:00 - 17:00</strong></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 class="text-center">Воскресенье и праздничные дни</h3>
-  <table class="table table-hover text-left">
-    <tbody>
-      <tr class="danger">
-        <td>Прием осуществляется дежурным персоналом</td>
-        <td><strong>9:00 - 15:00</strong></td>
-      </tr>
-      <tr class="danger">
-        <td>Вызовы врача на дом</td>
-        <td><strong>9:00 - 14:00</strong></td>
-      </tr>
-    </tbody>
-  </table>
   </div>
 </div>
+<!-- /carousel -->
 
-<div class="container col-sm-12">
-<div class="row">
- <h2 class="text-center">Новости</h2>
-  <div class="col-sm-4">
-    <h3>01.01.2017</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ratione molestiae hic recusandae temporibus, magnam quos, aliquid modi voluptate odio sit similique? Alias error adipisci culpa minus debitis magnam consequuntur, asperiores architecto sunt earum quas incidunt, ipsum amet nostrum obcaecati quasi, et perferendis veniam nulla. Quisquam totam iure odio inventore.</p>
-    <button class="btn btn-primary">Подробнее</button>
-  </div>
-  <div class="col-sm-4">
-    <h3>01.01.2017</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae aut atque, esse dolore omnis sequi animi molestias, debitis error iure nulla repellendus vitae perferendis rem earum illo asperiores nostrum pariatur repellat. Aspernatur nulla excepturi, ipsam. Rerum officia earum, beatae nemo!</p>
-    <button class="btn btn-primary">Подробнее</button>
-  </div>
-  <div class="col-sm-4">
-    <h3>01.01.2017</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consectetur vero numquam sed veniam dicta itaque in cumque. Esse cumque, ipsum suscipit sit natus, asperiores sed dolores. Pariatur asperiores doloribus, quod enim exercitationem laboriosam dignissimos, nisi et illo earum vitae autem fugiat eos corporis veniam.</p>
-    <button class="btn btn-primary">Подробнее</button>
-  </div>
-</div>
-</div>
-
-<div class="container col-sm-12">
-<hr>
-</div>
-
-<!-- Origional snipet by msurguy<http://bootsnipp.com/msurguy>, I editted his snipet so that it works with bootstrap 3.3 -->
 <div class="container">
-    <div class="row">
-            <div class="col-xs-3">
-                <ul class="list-unstyled">
-                    <li>GitHub<li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact & support</a></li>
-                    <li><a href="#">Enterprise</a></li>
-                    <li><a href="#">Site status</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-3">
-                <ul class="list-unstyled">
-                    <li>Applications<li>
-                    <li><a href="#">Product for Mac</a></li>
-                    <li><a href="#">Product for Windows</a></li>
-                    <li><a href="#">Product for Eclipse</a></li>
-                    <li><a href="#">Product mobile apps</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-3">
-                <ul class="list-unstyled">
-                    <li>Services<li>
-                    <li><a href="#">Web analytics</a></li>
-                    <li><a href="#">Presentations</a></li>
-                    <li><a href="#">Code snippets</a></li>
-                    <li><a href="#">Job board</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-3">
-                <ul class="list-unstyled">
-                    <li>Documentation<li>
-                    <li><a href="#">Product Help</a></li>
-                    <li><a href="#">Developer API</a></li>
-                    <li><a href="#">Product Markdown</a></li>
-                    <li><a href="#">Product Pages</a></li>
-                </ul>
-            </div>
+  <div class="row">
+
+ <!-- Структура -->
+    <div class="col-xs-4">
+      <h3 class="text-center">Структура</h3>
+      <div class="btn-group btn-block">
+        <button class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown">
+          Взрослая поликлиника <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu triangle">
+          <li><a href="#">Общая информация</a></li>
+          <li><a href="#">Терапевтическое отделение №1</a></li>
+          <li><a href="#">Терапевтическое отделение №2</a></li>
+          <li><a href="#">Хирургическое отделение</a></li>
+          <li><a href="#">Отделение профилактики</a></li>
+          <li><a href="#">Кабинет эндокринолога</a></li>
+          <li><a href="#">Кабинет пульмонолога</a></li>
+          <li><a href="#">Кабинет кардиолога</a></li>
+          <li><a href="#">Кабинет невролога</a></li>
+          <li><a href="#">Кабинет гастроэнтеролога</a></li>
+          <li><a href="#">Инфекционный кабинет</a></li>
+          <li><a href="#">Прививочный кабинет</a></li>
+          <li><a href="#">Процедурный кабинет</a></li>
+        </ul>
+      </div>
+      <div class="btn-group btn-block">
+        <button class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown">
+          Детская поликлиника <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu triangle">
+          <li><a href="#">Общая информация</a></li>
+          <li><a href="#">Педиатрическое отделение №1</a></li>
+          <li><a href="#">Педиатрическое отделение №2</a></li>
+          <li><a href="#">Хирургический кабинет</a></li>
+          <li><a href="#">Кабинет невролога</a></li>
+          <li><a href="#">Инфекционный кабинет</a></li>
+          <li><a href="#">Кабинет эпидемиолога</a></li>
+          <li><a href="#">Кабинет детского гинеколога</a></li>
+          <li><a href="#">Кабинет офтальмолога</a></li>
+          <li><a href="#">ЛОР кабинет</a></li>
+          <li><a href="#">Кабинет охраны зрения</a></li>
+          <li><a href="#">Кабинет психолога</a></li>
+          <li><a href="#">Кабинет здорового ребенка</a></li>
+          <li><a href="#">Процедурный кабинет</a></li>
+          <li><a href="#">Прививочный кабинет</a></li>
+          <li><a href="#">Дневной стационар</a></li>
+        </ul>
+      </div>
+      <div class="btn-group btn-block">
+        <button class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown">
+          Женская консультация
+        </button>
+      </div>
+      <div class="btn-group btn-block">
+        <button class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown">
+          Отделения диагностики <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu triangle">
+          <li><a href="#">Отделение лучевой диагностики и эндоскопии</a></li>
+          <li><a href="#">Отделение функциональной диагностики</a></li>
+          <li><a href="#">Клинико-диагностическая лаборатория</a></li>
+        </ul>
+      </div>
+      <div class="btn-group btn-block">
+        <button class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown">
+          Отделение восстановительного лечения
+        </button>
+      </div>
+      <div class="btn-group btn-block">
+        <button class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown">
+          Стационар <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu triangle">
+          <li><a href="#">Приемное отделение</a></li>
+          <li><a href="#">Неврологическое отделение</a></li>
+          <li><a href="#">Хоспис</a></li>
+          <li><a href="#">Терапевтическое отделение №1</a></li>
+          <li><a href="#">Терапевтическое отделение №2 с гастроэнтерологическими койками</a></li>
+        </ul>
+      </div>
     </div>
-    <hr>
-    <div class="row">
-            <div class="col-xs-8">
-                <ul class="list-unstyled list-inline pull-left">
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Privacy</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-4">
-                <p class="text-muted pull-right">© 2017 ТОГБУЗ «ГКБ №4 г. Тамбова». Все права защищены</p>
-            </div>
-        </div>
+ <!-- /Структура -->
+
+<!-- Режим работы -->
+    <div class="col-xs-8">
+      <h2 class="text-center">Время работы:</h2>
+      <h3 class="text-center">Будние дни</h3>
+      <table class="table table-hover text-left">
+        <tbody>
+          <tr class="success">
+            <td>Регистратура</td>
+            <td><strong>7:30 - 20:00</strong></td>
+          </tr>
+          <tr class="success">
+            <td>Клинико-диагностическая лаборатория</td>
+            <td><strong>8:00 - 16:30</strong></td>
+          </tr>
+          <tr class="success">
+            <td>Прием врачей-специалистов</td>
+            <td><strong>8:00 - 20:00</strong></td>
+          </tr>
+          <tr class="success">
+            <td>Вызовы врача на дом</td>
+            <td><strong>8:00 - 19:00</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="text-center">Суббота</h3>
+      <table class="table table-hover text-left">
+        <tbody>
+          <tr class="warning">
+            <td>Все подразделения поликлиники по графику</td>
+            <td><strong>9:00 - 18:00</strong></td>
+          </tr>
+          <tr class="warning">
+            <td>Прием врачей-специалистов</td>
+            <td><strong>9:00 - 15:00</strong></td>
+          </tr>
+          <tr class="warning">
+            <td>Вызовы врача на дом</td>
+            <td><strong>9:00 - 17:00</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="text-center">Воскресенье и праздничные дни</h3>
+      <table class="table table-hover text-left">
+        <tbody>
+          <tr class="danger">
+            <td>Прием осуществляется дежурным персоналом</td>
+            <td><strong>9:00 - 15:00</strong></td>
+          </tr>
+          <tr class="danger">
+            <td>Вызовы врача на дом</td>
+            <td><strong>9:00 - 14:00</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!-- /Режим работы -->
+
+<!-- Новости -->
+<div class="container">
+  <div class="row">
+   <h2 class="text-center">Новости</h2>
+    <div class="col-sm-4">
+      <h3>01.01.2017</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ratione molestiae hic recusandae temporibus, magnam quos, aliquid modi voluptate odio sit similique? Alias error adipisci culpa minus debitis magnam consequuntur, asperiores architecto sunt earum quas incidunt, ipsum amet nostrum obcaecati quasi, et perferendis veniam nulla. Quisquam totam iure odio inventore.</p>
+      <button class="btn btn-primary">Подробнее</button>
+    </div>
+    <div class="col-sm-4">
+      <h3>01.01.2017</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae aut atque, esse dolore omnis sequi animi molestias, debitis error iure nulla repellendus vitae perferendis rem earum illo asperiores nostrum pariatur repellat. Aspernatur nulla excepturi, ipsam. Rerum officia earum, beatae nemo!</p>
+      <button class="btn btn-primary">Подробнее</button>
+    </div>
+    <div class="col-sm-4">
+      <h3>01.01.2017</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consectetur vero numquam sed veniam dicta itaque in cumque. Esse cumque, ipsum suscipit sit natus, asperiores sed dolores. Pariatur asperiores doloribus, quod enim exercitationem laboriosam dignissimos, nisi et illo earum vitae autem fugiat eos corporis veniam.</p>
+      <button class="btn btn-primary">Подробнее</button>
+    </div>
+  </div>
+</div>
+<!-- /Новости -->
+
+<div class="container">
+  <hr>
 </div>
 
-
+<!-- Footer -->
+<div class="container">
+  <div class="row">
+      <div class="col-xs-3">
+        <ul class="list-unstyled">
+          <li>GitHub<li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact & support</a></li>
+          <li><a href="#">Enterprise</a></li>
+          <li><a href="#">Site status</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-3">
+        <ul class="list-unstyled">
+            <li>Applications<li>
+            <li><a href="#">Product for Mac</a></li>
+            <li><a href="#">Product for Windows</a></li>
+            <li><a href="#">Product for Eclipse</a></li>
+            <li><a href="#">Product mobile apps</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-3">
+        <ul class="list-unstyled">
+          <li>Services<li>
+          <li><a href="#">Web analytics</a></li>
+          <li><a href="#">Presentations</a></li>
+          <li><a href="#">Code snippets</a></li>
+          <li><a href="#">Job board</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-3">
+        <ul class="list-unstyled">
+          <li>Documentation<li>
+          <li><a href="#">Product Help</a></li>
+          <li><a href="#">Developer API</a></li>
+          <li><a href="#">Product Markdown</a></li>
+          <li><a href="#">Product Pages</a></li>
+        </ul>
+      </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-8">
+        <ul class="list-unstyled list-inline pull-left">
+            <li><a href="#">Написать нам</a></li>
+        </ul>
+    </div>
+    <div class="col-xs-4">
+      <p class="text-muted pull-right">© 2017 ТОГБУЗ «ГКБ №4 г. Тамбова».</p>
+    </div>
+  </div>
+</div>
+<!-- /Footer -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
