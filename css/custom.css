@@ -18,7 +18,6 @@
   float: left;
   height: 100px;
   width: 100px;
-  background-color: white;
   background-image: url(../img/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -32,6 +31,10 @@
   .navbar-brand {
     font-size: 16px;
   }
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+  }
   .dropdown-menu > li > a {
   white-space: normal;
   }
@@ -42,6 +45,18 @@
   .triangle:before {
     display: none;
   }
+
+  .navbar_gkb {
+    display: none;
+  }
+  .navbar_togbuz:after {
+    content: '«ГКБ №4 г. Тамбова»';
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 @media (max-width: 560px) {
@@ -51,10 +66,23 @@
   }
   .navbar-header {
     display: flex;
+    justify-content: space-between;
   }
   .glyphicon-chevron-right,
   .glyphicon-chevron-left {
     font-size: 30px;
+  }
+
+  .navbar_gkb {
+    display: none;
+  }
+  .navbar_togbuz:after {
+    content: '«ГКБ №4 г. Тамбова»';
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
   }
 }
 
@@ -65,12 +93,42 @@
   }
   .navbar-header {
     display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar_gkb {
+    display: none;
+  }
+  .navbar_togbuz:after {
+    content: '«ГКБ №4 г. Тамбова»';
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
   }
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   table.table {
+    font-size: 13px;
+  }
+
+  .navbar_gkb {
+    display: none;
+  }
+  .navbar_togbuz:after {
+    content: '«ГКБ №4 г. Тамбова»';
+  }
+
+  .logo {
+    height: 85px;
+    width: 85px;
+  }
+
+  .nav > li > a {
+    padding: 8px 8px;
     font-size: 13px;
   }
 }
