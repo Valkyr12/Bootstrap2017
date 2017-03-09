@@ -1,6 +1,6 @@
 .triangle:before {
     position: absolute;
-    top: -7px;
+    top: -6px;
     left: 9px;
     display: inline-block;
     border-right: 7px solid transparent;
@@ -111,7 +111,7 @@
 
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
   table.table {
     font-size: 13px;
   }
