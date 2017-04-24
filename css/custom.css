@@ -25,6 +25,14 @@
   border-radius: 50% 50%;
 }
 
+.mar-t-20 {
+  margin-top: 2rem;
+}
+
+.mar-b-20 {
+  margin-bottom: 2rem;
+}
+
 /*Media*/
 
 @media (max-width: 767px) {
