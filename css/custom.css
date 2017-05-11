@@ -53,18 +53,19 @@
   .triangle:before {
     display: none;
   }
-
   .navbar_gkb {
     display: none;
   }
   .navbar_togbuz:after {
     content: '«ГКБ №4 г. Тамбова»';
   }
-
   .logo {
     height: 50px;
     width: 50px;
     margin-left: 10%;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li:hover, .navbar-default .navbar-nav .open .dropdown-menu > li:focus {
+    background-color: rgb(223,240,216);
   }
 }
 
