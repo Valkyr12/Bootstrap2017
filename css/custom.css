@@ -25,12 +25,9 @@
   border-radius: 50% 50%;
 }
 
-.mar-t-20 {
-  margin-top: 2rem;
-}
-
-.mar-b-20 {
-  margin-bottom: 2rem;
+.quick-nav {
+  display: table;
+  margin: 1rem auto;
 }
 
 /*Media*/
@@ -67,6 +64,10 @@
   .navbar-default .navbar-nav .open .dropdown-menu > li:hover, .navbar-default .navbar-nav .open .dropdown-menu > li:focus {
     background-color: rgb(223,240,216);
   }
+
+  .promo {
+    display: none;
+  }
 }
 
 @media (max-width: 560px) {
@@ -93,6 +94,10 @@
   .logo {
     height: 60px;
     width: 60px;
+  }
+
+  .promo {
+    display: none;
   }
 }
 
@@ -140,6 +145,10 @@
   .nav > li > a {
     padding: 8px 8px;
     font-size: 13px;
+  }
+
+  .promo {
+    display: none;
   }
 }
 
