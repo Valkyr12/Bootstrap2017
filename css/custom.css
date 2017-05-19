@@ -29,3 +29,16 @@
   display: table;
   margin: 1rem auto;
 }
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-caption {
+  padding-bottom: 10px;
+}
+
+.useful-links-img {
+  padding-left: 6px;
+  padding-right: 6px;
+}
