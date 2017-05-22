@@ -52,9 +52,6 @@ table.table {
     font-size: 13px;
   }
 
-  .navbar_gkb {
-    display: none;
-  }
   .navbar_togbuz:after {
     content: '«ГКБ №4 г. Тамбова»';
   }
@@ -67,10 +64,6 @@ table.table {
   .nav > li > a {
     padding: 8px 8px;
     font-size: 13px;
-  }
-
-  .promo {
-    display: none;
   }
 
   .quick-nav-btn {
@@ -101,23 +94,17 @@ table.table {
   .triangle:before {
     display: none;
   }
-  .navbar_gkb {
-    display: none;
-  }
+
   .navbar_togbuz:after {
     content: '«ГКБ №4 г. Тамбова»';
   }
   .logo {
-    height: 50px;
-    width: 50px;
+    height: 56px;
+    width: 60px;
     margin-left: 10%;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li:hover, .navbar-default .navbar-nav .open .dropdown-menu > li:focus {
     background-color: rgb(223,240,216);
-  }
-
-  .promo {
-    display: none;
   }
 
   .quick-nav-btn {
@@ -134,6 +121,7 @@ table.table {
   .navbar-brand {
     font-size: 14px;
     margin-bottom: 10px;
+    padding: 10px 10px;
   }
   .navbar-header {
     display: flex;
@@ -144,20 +132,13 @@ table.table {
     font-size: 30px;
   }
 
-  .navbar_gkb {
-    display: none;
-  }
   .navbar_togbuz:after {
     content: '«ГКБ №4 г. Тамбова»';
   }
 
   .logo {
-    height: 60px;
+    height: 56px;
     width: 60px;
-  }
-
-  .promo {
-    display: none;
   }
 
   .quick-nav-btn {
@@ -246,9 +227,6 @@ table.table {
     justify-content: space-between;
   }
 
-  .navbar_gkb {
-    display: none;
-  }
   .navbar_togbuz:after {
     content: '«ГКБ №4 г. Тамбова»';
   }
