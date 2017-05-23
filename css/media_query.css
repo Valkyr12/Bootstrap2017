@@ -181,6 +181,10 @@ table.table {
     display: none;
   }
 
+  .navbar {
+    margin-bottom: 0px;
+  }
+
   .ovl-index {
     font-size: 13px;
   }
@@ -238,6 +242,10 @@ table.table {
 
   .quick-nav {
     font-size: 1px;
+  }
+
+  .navbar {
+    margin-bottom: 0px;
   }
 
   .quick-nav-btn {
