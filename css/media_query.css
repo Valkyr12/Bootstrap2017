@@ -164,6 +164,10 @@ table.table {
     padding-right: 10px;
     padding-left: 10px;
   }
+
+  .breadcrumb {
+    font-size: 12px;
+  }
 }
 
 /*End before 560px*/
@@ -179,10 +183,6 @@ table.table {
 
   #myCarousel {
     display: none;
-  }
-
-  .navbar {
-    margin-bottom: 0px;
   }
 
   .ovl-index {
@@ -215,6 +215,10 @@ table.table {
   .footer-brand {
     font-size: 13px;
   }
+
+  .breadcrumb {
+    font-size: 11px;
+  }
 }
 
 /*End after 320px before 400px*/
@@ -242,10 +246,6 @@ table.table {
 
   .quick-nav {
     font-size: 1px;
-  }
-
-  .navbar {
-    margin-bottom: 0px;
   }
 
   .quick-nav-btn {
@@ -291,6 +291,10 @@ table.table {
   }
 
   .footer-brand {
+    font-size: 10px;
+  }
+
+  .breadcrumb {
     font-size: 10px;
   }
 }
