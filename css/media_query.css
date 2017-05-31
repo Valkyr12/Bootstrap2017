@@ -290,12 +290,20 @@ table.table {
     padding-left: 5px;
   }
 
-  .footer-brand {
+  .footer-brand, .breadcrumb {
     font-size: 10px;
   }
 
-  .breadcrumb {
-    font-size: 10px;
+  .doctor_name, .doctor_office {
+    font-size: 14px;
+  }
+
+  .doctor_specialty{
+    font-size: 12px;
+  }
+
+  h4.doctor_name, h4.doctor_office, p.doctor_specialty {
+    margin: 0;
   }
 }
 
