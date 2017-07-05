@@ -87,3 +87,25 @@ a.spoiler:after {
 a.spoiler.collapsed:after {
   content: " [+]";
 }
+
+/*Фотогалерея*/
+
+.thumb img {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  border-radius:5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding:5px;
+}
+
+.thumb img:hover {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0);
+}
+
+.thumb {
+  padding:5px;
+}
+
+/*/Фотогалерея*/

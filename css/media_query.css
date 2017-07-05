@@ -48,10 +48,6 @@ table.table {
 /*After 768px before 992px*/
 
 @media (min-width: 768px) and (max-width: 992px) {
-  table.table {
-    font-size: 13px;
-  }
-
   .navbar_togbuz:after {
     content: '«ГКБ №4 г. Тамбова»';
   }
