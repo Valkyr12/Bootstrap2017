@@ -1,4 +1,5 @@
-.triangle:before {
+.triangle:before,
+.triangle:after {
   position: absolute;
   top: -6px;
   left: 9px;
@@ -8,6 +9,12 @@
   border-left: 7px solid transparent;
   border-bottom-color: #fff;
   content: '';
+}
+
+.triangle:after {
+  top: -8px;
+  border-bottom-color: #ccc;
+  z-index: -10;
 }
 
 .dropdown-menu > li > a:hover {
@@ -62,6 +69,7 @@ figcaption {
   width: 100%;
   position: absolute;
   bottom: 0;
+  left: 0;
   background-color: rgba(255,255,255, 0.6);
   padding: 0 5px;
   visibility: hidden;
@@ -99,7 +107,7 @@ a.spoiler.collapsed:after {
   padding:5px;
 }
 
-.thumb img:hover {
+.thumb:hover img {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(0);
 }
@@ -108,4 +116,38 @@ a.spoiler.collapsed:after {
   padding:5px;
 }
 
+.title-visible {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255, 0.6);
+  padding: 0 10px 5px 10px;
+  visibility: hidden;
+  transition: 0.5s linear 0s;
+  opacity: 0;
+}
+
+.bottom-title:hover .title-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
 /*/Фотогалерея*/
+
+/*Полезные советы*/
+
+.glyphicon {
+  margin-right: 10px;
+}
+.panel-body {
+  padding: 0px;
+}
+.panel-body table tr td {
+  padding-left: 15px
+}
+.panel-body .table {
+  margin-bottom: 0px;
+}
+
+/*/Полезные советы*/
