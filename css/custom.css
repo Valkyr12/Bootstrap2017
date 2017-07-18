@@ -96,6 +96,10 @@ a.spoiler.collapsed:after {
   content: " [+]";
 }
 
+.news-about {
+  clear: both;
+}
+
 /*Фотогалерея*/
 
 .thumb img {
