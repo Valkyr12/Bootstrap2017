@@ -13,7 +13,7 @@ $(function() {
     event.preventDefault();
     // заводим переменную, которая будет говорить о том валидна форма или нет
     var formValid = true;
-    // перебираем все элементы управления формы (input и textarea) 
+    // перебираем все элементы управления формы (input и textarea)
     $('#contactForm input,textarea').each(function() {
       // проверяем является ли данный элемент капчей
       // если это так, то не выполняем его проверку
@@ -33,8 +33,8 @@ $(function() {
      	formGroup.addClass('has-error').removeClass('has-success');
 	    // добавляем к glyphicon класс glyphicon-remove и удаляем glyphicon-ok
 	    glyphicon.addClass('glyphicon-remove').removeClass('glyphicon-ok');
-	    // если элемент не прошёл проверку, то отмечаем форму как не валидную 
-	    formValid = false;  
+	    // если элемент не прошёл проверку, то отмечаем форму как не валидную
+	    formValid = false;
       }
     });
     // проверяем элемент, содержащий код капчи
@@ -56,7 +56,7 @@ $(function() {
     }
     // если форма валидна и длина капчи равно 6 символам, то отправляем форму на сервер (AJAX)
     if (formValid && captcha.length==6) {
-	  //получаем имя, которое ввёл пользователь	
+	  //получаем имя, которое ввёл пользователь
 	  var name = $("#name").val();
 	  //получаем email, который ввёл пользователь
       var email = $("#email").val();
@@ -80,7 +80,7 @@ $(function() {
       $.ajax({
 		//метод передачи запроса - POST
         type: "POST",
-		//URL-адрес запроса 
+		//URL-адрес запроса
         url: "/feedback/process.php",
         //передаваемые данные - formData
         data: formData,
@@ -129,8 +129,8 @@ $(function() {
         },
         error: function (request) {
           $('#error').text('Произошла ошибка ' + request.responseText + ' при отправке данных.');
-        }        
+        }
       });
-	}	 
+	}
   });
 });

@@ -2,12 +2,15 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>Bootstrap - AJAX форма обратной связи</title>
-  <link rel="stylesheet" href="/feedback/css/bootstrap.min.css">
+  <title>«ГКБ №4 г.Тамбова»</title>
+  <link rel="stylesheet" href="../css/font-awesome.css">
+  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/media_query.css">
 </head>
 <body>
 
-  <h1 class="h2 page-header text-center">Bootstrap - AJAX форма обратной связи</h1> 
+  <h1 class="h2 page-header text-center">Форма обратной связи</h1>
 
   <div class="container">
     <div class="row">
@@ -30,10 +33,10 @@
             <form id="contactForm">
               <div class="row">
 
-                
-                <div id="error" class="col-sm-12" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>
-                
-                <!-- Имя и email пользователя -->                
+
+                <div id="error" class="col-sm-12" class="feedback-error"></div>
+
+                <!-- Имя и email пользователя -->
                 <div class="col-sm-6">
                   <!-- Имя пользователя -->
                   <div class="form-group has-feedback">
@@ -59,7 +62,7 @@
               </div>
 
               <hr>
-              <!-- Изображение, содержащее код капчи -->		  
+              <!-- Изображение, содержащее код капчи -->
 	            <img id="img-captcha" src="/feedback/captcha.php">
               <!-- Элемент, обновляющий код капчи -->
 	            <div id="reload-captcha" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Обновить</div>
@@ -69,8 +72,8 @@
 	              <input id="text-captcha" name="captcha" type="text" class="form-control" required="required" value="" autocomplete="off" minlength="6" maxlength="6">
 	              <span class="glyphicon form-control-feedback"></span>
               </div>
-
-              <!-- Кнопка, отправляющая форму -->  
+                <p>Нажимая на кнопку "Отправить сообщение", вы подтверждаете свое согласие на обработку введенных вами персональных данных, согласно действующей <a href="#">политике обработки персональных данных.</a></p>
+              <!-- Кнопка, отправляющая форму -->
               <button type="submit" class="btn btn-primary pull-right">Отправить сообщение</button>
             </form><!-- Конец формы -->
 
@@ -81,8 +84,10 @@
     </div>
   </div>
 
-  <script src="/feedback/js/jquery-3.1.0.min.js"></script>
-  <script src="/feedback/js/bootstrap.min.js"></script>
-  <script src="/feedback/script.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+  <script src="../feedback/script.js"></script>
 </body>
 </html>

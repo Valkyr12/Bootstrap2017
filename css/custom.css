@@ -155,3 +155,9 @@ a.spoiler.collapsed:after {
 }
 
 /*/Полезные советы*/
+
+#error {
+  color: #ff0000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
