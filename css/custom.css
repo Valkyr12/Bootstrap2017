@@ -161,3 +161,8 @@ a.spoiler.collapsed:after {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+}

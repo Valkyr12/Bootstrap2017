@@ -56,6 +56,7 @@
                         <li><a href="#">Врачебная комиссия</a></li>
                         <li><a href="#">Фотоальбом учреждения</a></li>
                         <li><a href="#">Структура учреждения</a></li>
+                        <li><a href="#">Новости</a></li>
                         <li><a href="#">Кадры</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">Документы</li>
@@ -70,20 +71,20 @@
                         <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu triangle" role="menu">
-                        <li><a href="#">Программа государственных гарантий<br> и государственное задание</a></li>
-                        <li><a href="#">Лекарственное обеспечение</a></li>
-                        <li><a href="#">Диспансеризация населения</a></li>
-                        <li><a href="#">Правила госпитализации</a></li>
-                        <li><a href="#">Политика обработки персональных данных</a></li>
-                        <li><a href="#">Стандарты оказания медицинской помощи</a></li>
-                        <li><a href="#">Порядок оказания медицинской помощи</a></li>
-                        <li><a href="#">Государственные услуги</a></li>
+                        <li><a href="main-menu/state-guarantees.html">Программа государственных гарантий<br> и государственное задание</a></li>
+                        <li><a href="main-menu/">Лекарственное обеспечение</a></li>
+                        <li><a href="main-menu/">Диспансеризация населения</a></li>
+                        <li><a href="main-menu/">Правила госпитализации</a></li>
+                        <li><a href="main-menu/">Политика обработки персональных данных</a></li>
+                        <li><a href="main-menu/">Стандарты оказания медицинской помощи</a></li>
+                        <li><a href="main-menu/">Порядок оказания медицинской помощи</a></li>
+                        <li><a href="main-menu/">Государственные услуги</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">Полезная информация</li>
-                        <li><a href="#">Платные медицински услуги</a></li>
-                        <li><a href="#">Полезные советы от наших врачей</a></li>
-                        <li><a href="#">Расписание работы врачей</a></li>
-                        <li><a href="#">Запись на прием к врачу</a></li>
+                        <li><a href="main-menu/">Платные медицински услуги</a></li>
+                        <li><a href="main-menu/">Полезные советы от наших врачей</a></li>
+                        <li><a href="main-menu/">Расписание работы врачей</a></li>
+                        <li><a href="main-menu/">Запись на прием к врачу</a></li>
                       </ul>
                     </li>
                     <li class="dropdown">
@@ -91,13 +92,13 @@
                         <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu triangle" role="menu">
-                        <li><a href="#">Контролирующие организации</a></li>
-                        <li><a href="#">Банковские реквизиты</a></li>
+                        <li><a href="main-menu/">Контролирующие организации</a></li>
+                        <li><a href="main-menu/">Банковские реквизиты</a></li>
                         <li class="divider"></li>
                         <li class="dropdown-header">Для связи</li>
-                        <li><a href="#">Обратная связь</a></li>
-                        <li><a href="#">Телефонный справочник</a></li>
-                        <li><a href="#">Схема проезда</a></li>
+                        <li><a href="main-menu/">Обратная связь</a></li>
+                        <li><a href="main-menu/">Телефонный справочник</a></li>
+                        <li><a href="main-menu/">Схема проезда</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -135,12 +136,50 @@
     <!-- Content -->
     <main>
       <div class="container">
-        <div class="row">
-          <p class="department_title text-center">Педиатрическое отделение №1</p>
-          <p class="text-center h4">Участок №1</p>
-          <div class="row col-sm-4 hidden-xs">
-            <figure class="foto">
-              <img src="img/doctors/Мусорина1.jpg" alt="Мусорина Ирина Николаевна" class="img-responsive img-rounded">
+        <div class="row flex">
+          <div>
+            <p class="department_title text-center">Педиатрическое отделение №1</p>
+            <p class="text-center h4">Участок №1</p>
+            <div class="row col-sm-4 col-md-4 hidden-xs col-sm-offset-1 col-md-offset-1">
+              <figure class="foto">
+                <img src="img/doctors/Мусорина1.jpg" alt="Мусорина Ирина Николаевна" class="img-responsive img-rounded">
+                  <figcaption class="text-center">
+                    <h4 class="doctor_name">
+                      <strong>Мусорина Ирина Николаевна</strong>
+                    </h4>
+                    <p class="doctor_specialty">участковый врач-педиатр.
+                      <span class="hidden-xs">Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.</span>
+                    </p>
+                    <h4 class="doctor_office">
+                      <strong>Каб. 209</strong>
+                    </h4>
+                  </figcaption>
+              </figure>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>Прием ведет участковый врач-педиатр
+                <strong>Мусорина Ирина Николаевна</strong>. Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.
+              </p>
+              <p>
+                <strong>Кабинет №209. </strong><a href="">(посмотреть на карте)</a>
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <a class="btn btn-default btn-md btn-block">График приема</a>
+              <a class="btn btn-default btn-md btn-block">Границы участка</a>
+              <a class="btn btn-primary btn-md btn-block">Запись на прием</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row flex">
+          <div>
+            <p class="text-center h4">Участок №2</p>
+            <div class="row col-sm-4 hidden-xs">
+              <figure class="foto">
+                <img src="img/doctors/Мусорина1.jpg" alt="Мусорина Ирина Николаевна" class="img-rounded">
                 <figcaption class="text-center">
                   <h4 class="doctor_name">
                     <strong>Мусорина Ирина Николаевна</strong>
@@ -149,76 +188,42 @@
                     <span class="hidden-xs">Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.</span>
                   </p>
                   <h4 class="doctor_office">
-                    <strong>Каб. 209</strong>
+                    <strong >Каб. 209</strong>
                   </h4>
                 </figcaption>
-            </figure>
-          </div>
-          <div class="col-xs-12 col-sm-8">
-            <p class="hidden-sm hidden-md hidden-lg">Прием ведет участковый врач-педиатр
-              <strong>Мусорина Ирина Николаевна</strong>. Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.
-            </p>
-            <p>
-              <strong>Кабинет №209. </strong><a href="">(посмотреть на карте)</a>
-            </p>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <a class="btn btn-default btn-md btn-block">График приема</a>
-            <a class="btn btn-default btn-md btn-block">Границы участка</a>
-            <a class="btn btn-default btn-md btn-block">Запись на прием</a>
-          </div>
-        </div>
-      </div>
+              </figure>
+            </div>
 
-      <div class="container">
-        <div class="row">
-          <p class="text-center h4">Участок №2</p>
-          <div class="row col-sm-4 hidden-xs">
-            <figure class="foto">
-              <img src="img/doctors/Мусорина1.jpg" alt="Мусорина Ирина Николаевна" class="img-rounded">
-              <figcaption class="text-center">
-                <h4 class="doctor_name">
-                  <strong>Мусорина Ирина Николаевна</strong>
-                </h4>
-                <p class="doctor_specialty">участковый врач-педиатр.
-                  <span class="hidden-xs">Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.</span>
-                </p>
-                <h4 class="doctor_office">
-                  <strong >Каб. 209</strong>
-                </h4>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="row col-sm-4 hidden-xs">
-            <figure class="foto">
-              <img src="img/doctors/Мусорина1.jpg" alt="Мусорина Ирина Николаевна" class="img-rounded">
-              <figcaption class="text-center">
-                <h4 class="doctor_name">
-                  <strong>Мусорина Ирина Николаевна</strong>
-                </h4>
-                <p class="doctor_specialty">участковый врач-педиатр.
-                  <span class="hidden-xs">Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.</span>
-                </p>
-                <h4 class="doctor_office">
-                  <strong >Каб. 209</strong>
-                </h4>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <p class="hidden-sm hidden-md hidden-lg">Прием ведет участковый врач-педиатр
-              <strong>Мусорина Ирина Николаевна</strong>. Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.
-            </p>
-            <p>
-              <strong>Кабинет №209. </strong>
-              <a href="">(посмотреть на карте)</a>
-            </p>
-          </div>
-          <div class="col-xs-12 col-sm-3">
-            <a class="btn btn-default btn-md btn-block">График приема</a>
-            <a class="btn btn-default btn-md btn-block">Границы участка</a>
-            <a class="btn btn-default btn-md btn-block">Запись на прием</a>
+            <div class="row col-sm-4 hidden-xs">
+              <figure class="foto">
+                <img src="img/doctors/Мусорина1.jpg" alt="Мусорина Ирина Николаевна" class="img-rounded">
+                <figcaption class="text-center">
+                  <h4 class="doctor_name">
+                    <strong>Мусорина Ирина Николаевна</strong>
+                  </h4>
+                  <p class="doctor_specialty">участковый врач-педиатр.
+                    <span class="hidden-xs">Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.</span>
+                  </p>
+                  <h4 class="doctor_office">
+                    <strong >Каб. 209</strong>
+                  </h4>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <p>Прием ведет участковый врач-педиатр
+                <strong>Мусорина Ирина Николаевна</strong>. Имеет сертификат специалиста по специальности "Педиатрия", первую квалификационную категорию.
+              </p>
+              <p>
+                <strong>Кабинет №209. </strong>
+                <a href="">(посмотреть на карте)</a>
+              </p>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <a class="btn btn-default btn-md btn-block">График приема</a>
+              <a class="btn btn-default btn-md btn-block">Границы участка</a>
+              <a class="btn btn-primary btn-md btn-block">Запись на прием</a>
+            </div>
           </div>
         </div>
       </div>

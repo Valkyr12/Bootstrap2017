@@ -91,6 +91,10 @@ table.table {
     display: none;
   }
 
+  .triangle:after {
+    display: none;
+  }
+
   .navbar_togbuz:after {
     content: '«ГКБ №4 г. Тамбова»';
   }
